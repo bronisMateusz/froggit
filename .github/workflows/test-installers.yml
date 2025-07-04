@@ -42,7 +42,7 @@ jobs:
 
   test-macos-installer:
     name: Test macOS Installer
-    runs-on: macos-latest
+    runs-on: macos-15.5
 
     steps:
       - uses: actions/checkout@v4
